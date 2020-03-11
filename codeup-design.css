@@ -9,6 +9,7 @@ body {
 
 h1, h3, h4{
     font-family: 'Anton', sans-serif;
+    margin: 0;
 }
 
 #nav-list a {
@@ -63,10 +64,20 @@ a:visited{
 
 #host, #support, #develop, #design{
     display: inline-block;
-    height: 100px;
-    width: 100px;
-    border: 3px solid white;
-    border-radius: 50%;
+    height: 105px;
+    width: 105px;
+    border: 6px solid white;
+    border-radius: 52.5px;
     color: white;
+    padding: 0;
+    margin: 10px;
 }
 
+#circle {
+    line-height: 108px;
+    margin: 0;
+}
+
+div.logo-container {
+    padding: 0 25px;
+}
