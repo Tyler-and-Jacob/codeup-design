@@ -33,19 +33,19 @@ body {
     font-family: 'Anton', sans-serif;
 }
 
-#design{
+#design, #design-sm{
     background-color: #e6563b;
 }
 
-#develop{
+#develop, #develop-sm{
     background-color: #eb9d3a;
 }
 
-#support{
+#support, #support-sm{
     background-color: #7cb06c;
 }
 
-#host{
+#host, #host-sm{
     background-color: #00aba9;
 }
 
@@ -70,4 +70,39 @@ a:link{
 
 a:visited{
     color: black;
+}
+
+.featured{
+    font-family: 'Abel', sans-serif;
+}
+
+.apple-ipad{
+    max-height: 250px;
+    max-width: 250px;
+}
+
+#host-sm, #support-sm, #develop-sm, #design-sm {
+    max-height: 18px;
+    max-width: 18px;
+    border-radius: 50%;
+    color: black;
+    margin: 10px;
+}
+
+#host-sm, #support-sm, #develop-sm, #design-sm p{
+    line-height: 18px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.featured-products{
+    font-family: 'Abel', sans-serif;
+    font-size: small;
+    max-height: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer{
+    max-height: 20px;
 }
