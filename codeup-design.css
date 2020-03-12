@@ -30,6 +30,11 @@ li .logo-tablet{
     width: 100vw;
 }
 
+.nav-lrg{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+}
 .navigate{
     list-style: none;
     font-family: 'Abel', sans-serif;
