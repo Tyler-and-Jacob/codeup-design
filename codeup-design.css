@@ -77,8 +77,9 @@ a:visited{
 }
 
 .apple-ipad{
-    max-height: 250px;
-    max-width: 250px;
+    max-height: 260px;
+    max-width: 260px;
+    border: 5px solid #e6e6e6;
 }
 
 #host-sm, #support-sm, #develop-sm, #design-sm {
@@ -86,12 +87,13 @@ a:visited{
     max-width: 18px;
     border-radius: 50%;
     color: black;
-    margin: 10px;
+    margin: 15px 3px;
 }
 
 #host-sm, #support-sm, #develop-sm, #design-sm p{
     line-height: 18px;
     text-align: center;
+    font-size: .5em;
     font-family: 'Anton', sans-serif;
 }
 
@@ -100,9 +102,10 @@ a:visited{
     font-size: small;
     max-height: 20px;
     padding: 0;
-    margin: 0;
+    margin: 0 9px 0 0;
 }
 
-.footer{
-    max-height: 20px;
+#featured{
+    margin-top: -15px;
+    margin-left: 29px;
 }
