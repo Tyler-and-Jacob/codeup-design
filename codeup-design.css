@@ -128,3 +128,8 @@ a:visited{
     margin-top: -15px;
     margin-left: 29px;
 }
+
+.featured-container-1, .featured-container-2, .featured-container-3, .featured-container-4{
+    max-width: 310px;
+    margin: 15px;
+}
