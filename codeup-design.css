@@ -27,6 +27,25 @@ body {
 
 .navigate li{
     margin: 0 3px;
+    line-height: 50px;
+}
+
+
+
+#services{
+margin-right: 20px;
+}
+
+#work{
+margin-right: 80px;
+}
+
+#blog{
+margin-left: 80px;
+}
+
+#contact{
+    margin-left: 20px;
 }
 
 .description{
