@@ -9,6 +9,12 @@ body {
     margin: 0;
 }
 
+.company-lrg{
+    font-family: 'Abel', sans-serif;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
 .logo{
     height: 105px;
     width: 105px;
@@ -24,6 +30,12 @@ li .logo-tablet{
     width: 105px;
 }
 
+li .logo-lrg{
+    height: 105px;
+    width: 105px;
+    margin-top: -25px;
+}
+
 .nav {
     background-color: white;
     height: 50px;
@@ -35,6 +47,11 @@ li .logo-tablet{
     height: 50px;
     width: 100%;
 }
+
+.large-left, .large-right{
+    list-style: none;
+}
+
 .navigate{
     list-style: none;
     font-family: 'Abel', sans-serif;
@@ -42,6 +59,10 @@ li .logo-tablet{
 
 .navigate li{
     margin: 0 3px;
+    line-height: 50px;
+}
+
+#services-lrg, #work-lrg, #blog-lrg, #contact-lrg{
     line-height: 50px;
 }
 
