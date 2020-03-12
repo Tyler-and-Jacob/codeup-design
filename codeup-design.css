@@ -171,3 +171,11 @@ a:visited{
     max-width: 310px;
     margin: 15px;
 }
+
+.social{
+    margin-top: -270px;
+}
+
+.social ul{
+    list-style: none;
+}
