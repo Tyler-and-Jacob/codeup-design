@@ -13,14 +13,18 @@
     <link rel="stylesheet" href="codeup-design.css">
     <title>Codeup Design</title>
 </head>
-<header>
+<header class="container m-0 p-0">
     <ul class="nav justify-content-center align-content-center">
-        <a href="" id="services" class="nav-item">
+        <div class="row">
+        <a href="" id="services" class="nav-item d-none d-sm-block">
             <li>SERVICES</li>
         </a>
         <a href="" id="work" class="nav-item d-none d-sm-block">
             <li>WORK</li>
         </a>
+            <li>
+                <img class="logo-tablet rounded mx-auto d-none d-sm-block" src="imgs/logo.png" alt="">
+            </li>
         <a href="" id="blog" class="nav-item d-none d-sm-block">
             <li>BLOG</li>
         </a>
@@ -30,15 +34,12 @@
     </ul>
 </header>
 <body>
-<div class="container p-0">
+<div class="container p-0 d-block d-sm-none">
     <div class="row">
-        <img class="logo rounded mx-auto d-block" src="imgs/logo.png" alt="">
-        <!--        <nav class="col-12">-->
-
-        <!--        </nav>-->
+        <img class="logo rounded mx-auto" src="imgs/logo.png" alt="">
     </div>
     <div class="col-12">
-        <p class="company h2 text-center">codeup design</p>
+        <p class="company h2 text-center d-sm-none">codeup design</p>
     </div>
     <ul class=" col-12 navigate row m-0 p-0 justify-content-center d-sm-none">
         <a href="">

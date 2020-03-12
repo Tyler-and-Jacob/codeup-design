@@ -1,7 +1,7 @@
 body {
     background-color: #f0f0f0;
     line-height: 75px;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .company{
@@ -13,6 +13,15 @@ body {
     height: 105px;
     width: 105px;
     margin-top: -75px;
+}
+
+ul {
+    width: 100%;
+}
+
+li .logo-tablet{
+    height: 105px;
+    width: 105px;
 }
 
 .nav {
@@ -30,22 +39,24 @@ body {
     line-height: 50px;
 }
 
-
-
 #services{
-margin-right: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
 }
 
 #work{
-margin-right: 80px;
+    margin-right: 47px;
+    margin-top: 15px;
 }
 
 #blog{
-margin-left: 80px;
+    margin-left: 47px;
+    margin-top: 15px;
 }
 
 #contact{
     margin-left: 20px;
+    margin-top: 15px;
 }
 
 .description{
