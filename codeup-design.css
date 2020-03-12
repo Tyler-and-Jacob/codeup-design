@@ -27,6 +27,7 @@ li .logo-tablet{
 .nav {
     background-color: white;
     height: 50px;
+    width: 100vw;
 }
 
 .navigate{
