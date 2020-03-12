@@ -1,104 +1,7 @@
-/*body {*/
-/*    font-family: 'Abel', sans-serif;*/
-/*    background-color: #F0F0F0;*/
-/*    margin-top: 30px;*/
-/*}*/
-
-/*.container {*/
-/*    background-color: #F0F0F0;*/
-/*    width: 100vw;*/
-/*    height: 100vh;*/
-/*}*/
-
-/*h1, h3, h4{*/
-/*    font-family: 'Anton', sans-serif;*/
-/*    margin: 0;*/
-/*}*/
-
-/*#nav-list a {*/
-/*    display: inline-block;*/
-/*    margin: 10px 12px;*/
-/*}*/
-
-/*#company{*/
-/*    font-family: 'Abel', sans-serif;*/
-/*}*/
-
-/*ul{*/
-/*    list-style: none;*/
-/*}*/
-
-/*a:link{*/
-/*    color: black;*/
-/*}*/
-
-/*a:visited{*/
-/*    color: black;*/
-/*}*/
-
-/*.logo{*/
-/*    height: 100px;*/
-/*    width: 100px;*/
-/*    z-index: 2;*/
-/*}*/
-
-/*.stripe{*/
-/*    background-color: white;*/
-/*    height: 75px;*/
-/*    width: 100%;*/
-/*    z-index: 1;*/
-/*}*/
-
-/*#design{*/
-/*    background-color: #e6563b;*/
-/*}*/
-
-/*#develop{*/
-/*    background-color: #eb9d3a;*/
-/*}*/
-
-/*#support{*/
-/*    background-color: #7cb06c;*/
-/*}*/
-
-/*#host{*/
-/*    background-color: #00aba9;*/
-/*}*/
-
-/*#host, #support, #develop, #design{*/
-/*    !*display: inline-block;*!*/
-/*    max-height: 105px;*/
-/*    max-width: 105px;*/
-/*    border: 6px solid white;*/
-/*    border-radius: 50px;*/
-/*    color: white;*/
-/*    padding: 0;*/
-/*    margin: 10px;*/
-/*}*/
-
-/*!*#circle {*!*/
-/*!*    line-height: 108px;*!*/
-/*!*    margin: 0;*!*/
-/*}*/
-
-/*div.logo-container {*/
-/*    padding: 0 25px;*/
-
-/*}*/
-
-/*.nav {*/
-/*    background-color: white;*/
-/*    height: 50px;*/
-/*}*/
-
-
-/*.logo {*/
-/*    margin-top: -75px;*/
-/*}*/
-
 body {
     background-color: #f0f0f0;
     line-height: 75px;
+    margin-top: 30px;
 }
 
 .company{
@@ -109,15 +12,13 @@ body {
 .logo{
     height: 105px;
     width: 105px;
-    float: top;
+    margin-top: -75px;
 }
 
-/*nav{*/
-/*    background-color: #FFFFFF;*/
-/*height: 50px;*/
-/*width: 100%;*/
-/*clear: top;*/
-/*}*/
+.nav {
+    background-color: white;
+    height: 50px;
+}
 
 .navigate{
     list-style: none;
