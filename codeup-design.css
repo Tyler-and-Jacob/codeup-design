@@ -224,3 +224,7 @@ ul.large-right{
 ul.medium-nav{
     font-weight: 200
 }
+
+hr{
+    max-width: 1024px;
+}
