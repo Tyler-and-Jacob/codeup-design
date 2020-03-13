@@ -39,7 +39,7 @@ li .logo-lrg{
 .nav {
     background-color: white;
     height: 50px;
-    /*width: 100vw;*/
+    width: 100vw;
 }
 
 .nav-lrg{
@@ -189,7 +189,7 @@ a:visited{
 }
 
 .featured-large{
-    margin-right: 140px;
+    margin-right: 200px;
 }
 
 .thumbnail-head, .thumbnail-phone, .thumbnail-ipad{
@@ -203,4 +203,12 @@ a:visited{
 
 .tweet{
     line-height: 17px;
+}
+
+div#selected-work{
+    max-width: 1024px;
+}
+
+div.titles{
+    max-width: 1024px;
 }
