@@ -212,3 +212,7 @@ div#selected-work{
 div.titles{
     max-width: 1024px;
 }
+
+.max{
+    max-width: 1024px;
+}
