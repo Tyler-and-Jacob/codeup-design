@@ -179,3 +179,12 @@ a:visited{
 .social ul{
     list-style: none;
 }
+
+.featured-large{
+    margin-right: 140px;
+}
+
+.thumbnail{
+    height: 50px;
+    width: 50px;
+}
