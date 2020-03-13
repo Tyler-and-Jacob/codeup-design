@@ -148,7 +148,7 @@ a:visited{
 }
 
 #host-sm, #support-sm, #develop-sm, #design-sm p{
-    line-height: 18px;
+    line-height: 19px;
     text-align: center;
     font-size: .5em;
     font-family: 'Anton', sans-serif;
@@ -215,4 +215,12 @@ div.titles{
 
 .max{
     max-width: 1024px;
+}
+
+ul.large-right{
+    font-weight: 200
+}
+
+ul.medium-nav{
+    font-weight: 200
 }
