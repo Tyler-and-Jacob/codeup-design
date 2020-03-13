@@ -203,6 +203,8 @@ a:visited{
 
 .tweet{
     line-height: 17px;
+    font-weight: 200;
+    font-size: smaller;
 }
 
 div#selected-work{
